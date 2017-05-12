@@ -1,7 +1,6 @@
 body{
     text-align: center;
     background-image: url("assets/topper.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -11,6 +10,7 @@ body{
 }
 
 .singleBurger{
+    background-color: lightblue;
     display: inline-block;
     width:60%;
     border:solid 2px blue;
@@ -19,21 +19,13 @@ body{
 }
 
 img{
-    width: 150px;
-    display: inline-block;
+    width: 25%;
     vertical-align: middle;
 }
 
 p{
-    width:75%;
+    width:74%; /*setting to 75% will still cause bunching*/
     display: inline-block;
     vertical-align: middle;
-}
-
-.singleBurger:nth-child(odd) {
-    background: lightblue;
-}
-
-.singleBurger:nth-child(even) {
-    background: pink;
+    margin: 0;
 }
