@@ -1,31 +1,36 @@
 body{
-    text-align: center;
     background-image: url("assets/topper.jpg");
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+.singleBurger{
+    border:solid 2px blue;
+    background-color: lightblue;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.mainContent{
+    border:solid 2px red;
 }
 
 #top{
     color:white;
 }
-
-.singleBurger{
-    background-color: lightblue;
-    display: inline-block;
-    width:60%;
-    border:solid 2px blue;
-    margin: 10px 0;
-    padding: 5px;
-}
-
+   
 img{
     width: 25%;
     vertical-align: middle;
 }
 
 p{
-    width:74%; /*setting to 75% will still cause bunching*/
     display: inline-block;
+    width:74%; /*setting to 75% will still cause bunching*/
     vertical-align: middle;
-    margin: 0;
 }
+
