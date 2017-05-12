@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-image: url("assets/topper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#top{
+    color:white;
+}
+
+.singleBurger{
+    display: inline-block;
+    width:60%;
+    border:solid 2px blue;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+img{
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p{
+    width:75%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.singleBurger:nth-child(odd) {
+    background: lightblue;
+}
+
+.singleBurger:nth-child(even) {
+    background: pink;
+}
